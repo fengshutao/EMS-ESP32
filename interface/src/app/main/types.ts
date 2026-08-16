@@ -286,7 +286,7 @@ export const BOARD_PROFILES = {
   OLIMEXPOE: 'Olimex ESP32-POE',
   C3MINI: 'Wemos C3 Mini',
   S2MINI: 'Wemos S2 Mini',
-  S3MINI: 'Liligo S3'
+  S3MINI: 'Liligo S3',
   C3XIAO: 'XIAO Gateway C3'
 } as const;
 
