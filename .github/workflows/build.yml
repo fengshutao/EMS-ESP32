@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: |
           corepack enable pnpm
-          platformio run -e build_webUI
+          platformio run -e build-webUI
           platformio run -e seeed_xiao_esp32c3
       - name: Archive binaries
         if: always()
