@@ -287,6 +287,7 @@ export const BOARD_PROFILES = {
   C3MINI: 'Wemos C3 Mini',
   S2MINI: 'Wemos S2 Mini',
   S3MINI: 'Liligo S3'
+  C3XIAO: 'XIAO Gateway C3'
 } as const;
 
 export type BoardProfileKey = keyof typeof BOARD_PROFILES;
