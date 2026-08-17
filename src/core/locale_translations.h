@@ -20,6 +20,7 @@
 // clang-format off
 
 // Define language codes here and add to languages[] in system.cpp
+#define EMSESP_LOCALE_ZH "zh"
 #define EMSESP_LOCALE_EN "en"
 #define EMSESP_LOCALE_DE "de"
 #define EMSESP_LOCALE_NL "nl"
@@ -32,32 +33,32 @@
 #define EMSESP_LOCALE_SK "sk"
 #define EMSESP_LOCALE_CS "cs"
 
-// IMPORTANT! translations are in the order: en, de, nl, sv, pl, no, fr, tr, it, sk, cs
+// IMPORTANT! translations are in the order: zh, en, de, nl, sv, pl, no, fr, tr, it, sk, cs
 //
 // if there is no translation, it will default to en
 
 // device types, as display in Web and Console
-MAKE_WORD_TRANSLATION(boiler_hp_device, "Boiler/HP", "Kessel/WP", "CV ketel/WP", "Värmepanna/VP", "Kocioł/PC", "Varmekjele/VP", "Chaudière/PC", "Kazan/IP", "Caldaia/PC", "Kotol/TČ", "Kotel/TČ")
-MAKE_WORD_TRANSLATION(boiler_device, "Boiler", "Kessel", "CV ketel", "Värmepanna", "Kocioł", "Varmekjele", "Chaudière", "Kazan", "Caldaia", "Kotol", "Kotel")
-MAKE_WORD_TRANSLATION(thermostat_device, "Thermostat", "Thermostat", "Thermostaat", "Termostat", "Termostat", "Termostat", "Thermostat", "Termostat", "Termostato", "Termostat", "Termostat")
-MAKE_WORD_TRANSLATION(heatpump_device, "Heat Pump", "Wärmepumpe", "Warmtepomp", "Värmepump", "Pompa ciepła", "Varmepumpe", "Pompe à chaleur", "Isı Pompası", "Pompa di Calore", "Tepelné čerpadlo", "Tepelné čerpadlo")
-MAKE_WORD_TRANSLATION(solar_device, "Solar Module", "Solarmodul", "Solar Module", "Solmodul", "Moduł solarny", "Solmodul", "Module solaire", "Güneş Enerjisi Cihazı", "Modulo Solare", "Solárny modul", "Solární modul")
-MAKE_WORD_TRANSLATION(connect_device, "Connect Module", "Verbindungsmodul", "Connect Module", "Uppkopplingsmodul", "Moduł przyłączeń", "Sammenkoblingsmodul", "Module de connexion", "Bağlantı Modülü", "Modulo connessione", "Pripojte modul", "Modul připojení")
-MAKE_WORD_TRANSLATION(mixer_device, "Mixer Module", "Mischermodul", "Mixer Module", "Blandarmodul", "Moduł mieszacza", "Miksermodul", "Module mélangeur", "Karışım Cihazı", "Modulo Miscela", "Modul mixera", "Směšovací modul")
-MAKE_WORD_TRANSLATION(controller_device, "Controller Module", "Regelmodul", "Controller Module", "Styrmodul", "Moduł sterujący", "Styremodul", "Module de contrôle", "Kontrol Ünitesi", "Modulo Controllo", "Modul ovládača", "Řídicí modul")
-MAKE_WORD_TRANSLATION(switch_device, "Switch Module", "Schaltmodul", "Switch Module", "Relämodul", "Moduł przełączający", "Switch modul", "Module commutateur", "Anahtar", "Modulo Switch", "Spínací modul", "Spínací modul")
-MAKE_WORD_TRANSLATION(gateway_device, "Gateway Module", "Gateway-Modul", "Gateway Module", "Gateway", "Moduł IP", "Gateway", "Module passerelle", "Ağ Geçidi", "Modulo Gateway", "Modul brány", "Modul brány")
-MAKE_WORD_TRANSLATION(alert_device, "Alert Module", "Alarmmodul", "Alert Module", "Larmmodul", "Moduł alarmowy", "Alarmmodul", "Module d'alerte", "Alarm Cihazı", "Module Avviso", "Modul upozornení", "Modul upozornění")
-//MAKE_WORD_TRANSLATION(pump_device, "Pump Module", "Pumpenmodul", "Pump Module", "Pumpmodul", "Moduł pompy", "Pumpemodul", "", "Pompa", "Module Pompa", "Modul čerpadla", "Modul čerpadla") 
-MAKE_WORD_TRANSLATION(extension_device, "Extension Module", "Erweiterungsnmodul", "Module", "Utökningsmodul", "Moduł rozszerzeń", "Modul", "Module d'extension", "Genişletme Modülü", "Module", "Rozširujúci modul", "Rozšiřující modul")
-MAKE_WORD_TRANSLATION(heatsource_device, "Heatsource", "Wärmequelle", "Heatsource", "Värmekälla", "Źródło ciepła", "Varmekilde", "Source de chaleur", "Isı Kaynağı", "Fonte di calore", "Tepelný zdroj", "Zdroj tepla")
-MAKE_WORD_TRANSLATION(sensors_device, "Sensors", "Sensoren", "Sensoren", "Sensorer", "Czujniki", "Sensorer", "Capteurs", "Sensör Cihazı", "Sensori", "Snímače", "Senzory")
-MAKE_WORD_TRANSLATION(unknown_device, "Unknown", "Unbekannt", "Onbekend", "Okänt", "Nieznane urządzenie", "Ukjent", "Inconnu", "Bilinmeyen", "Sconosciuto", "Neznámy", "Neznámé")
-MAKE_WORD_TRANSLATION(custom_device, "Custom", "Nutzerdefiniert", "Aangepast", "Anpassad", "Niestandardowe", "Tilpasset", "Personnalisé", "Özel", "Personalizzato", "Vlastné", "Vlastní")
-MAKE_WORD_TRANSLATION(custom_device_name, "Custom Entities", "Nutzer deklarierte Entitäten", "Gebruiker gedefineerd", "Egendefinierade entiteter", "Encje zdefiniowane przez użytkownika", "Brukerdefinerte enheter", "Entités personnalisées", "Kullanıcı tarafından tanımlanmış varlıklar", "Entità definita da utente", "Používateľom definované entity", "Vlastní entity")
-MAKE_WORD_TRANSLATION(ventilation_device, "Ventilation", "Belüftung", "Ventilatie", "Ventilation", "Wentylacja", "Ventilasjon", "Ventilation", "Havalandırma", "Ventilazione", "Vetranie", "Větrání")
-MAKE_WORD_TRANSLATION(water_device, "Water Module", "Wassermodul", "Water Module", "Vattenmodul", "Moduł wodny", "Vannmodul", "Module d'eau", "Su Modülü", "Modulo Acqua", "Modul vody", "Modul vody")
-MAKE_WORD_TRANSLATION(pool_device, "Pool Module", "Poolmodul", "Pool Module", "Poolmodul", "Moduł basenu", "Bassengmodul", "Module piscine", "Havuz Modülü", "Modulo Piscina", "Modul bazéna", "Modul bazénu")
+MAKE_WORD_TRANSLATION(boiler_hp_device, "壁挂炉/HP", "Boiler/HP", "Kessel/WP", "CV ketel/WP", "Värmepanna/VP", "Kocioł/PC", "Varmekjele/VP", "Chaudière/PC", "Kazan/IP", "Caldaia/PC", "Kotol/TČ", "Kotel/TČ")
+MAKE_WORD_TRANSLATION(boiler_device, "壁挂炉", "Boiler", "Kessel", "CV ketel", "Värmepanna", "Kocioł", "Varmekjele", "Chaudière", "Kazan", "Caldaia", "Kotol", "Kotel")
+MAKE_WORD_TRANSLATION(thermostat_device, "温控器", "Thermostat", "Thermostat", "Thermostaat", "Termostat", "Termostat", "Termostat", "Thermostat", "Termostat", "Termostato", "Termostat", "Termostat")
+MAKE_WORD_TRANSLATION(heatpump_device, "热泵p", "Heat Pump", "Wärmepumpe", "Warmtepomp", "Värmepump", "Pompa ciepła", "Varmepumpe", "Pompe à chaleur", "Isı Pompası", "Pompa di Calore", "Tepelné čerpadlo", "Tepelné čerpadlo")
+MAKE_WORD_TRANSLATION(solar_device, "太阳能模块", "Solar Module", "Solarmodul", "Solar Module", "Solmodul", "Moduł solarny", "Solmodul", "Module solaire", "Güneş Enerjisi Cihazı", "Modulo Solare", "Solárny modul", "Solární modul")
+MAKE_WORD_TRANSLATION(connect_device, "连接模块", "Connect Module", "Verbindungsmodul", "Connect Module", "Uppkopplingsmodul", "Moduł przyłączeń", "Sammenkoblingsmodul", "Module de connexion", "Bağlantı Modülü", "Modulo connessione", "Pripojte modul", "Modul připojení")
+MAKE_WORD_TRANSLATION(mixer_device, "混合模块", "Mixer Module", "Mischermodul", "Mixer Module", "Blandarmodul", "Moduł mieszacza", "Miksermodul", "Module mélangeur", "Karışım Cihazı", "Modulo Miscela", "Modul mixera", "Směšovací modul")
+MAKE_WORD_TRANSLATION(controller_device, "控制器模块", "Controller Module", "Regelmodul", "Controller Module", "Styrmodul", "Moduł sterujący", "Styremodul", "Module de contrôle", "Kontrol Ünitesi", "Modulo Controllo", "Modul ovládača", "Řídicí modul")
+MAKE_WORD_TRANSLATION(switch_device, "开关模块", "Switch Module", "Schaltmodul", "Switch Module", "Relämodul", "Moduł przełączający", "Switch modul", "Module commutateur", "Anahtar", "Modulo Switch", "Spínací modul", "Spínací modul")
+MAKE_WORD_TRANSLATION(gateway_device, "网关模块", "Gateway Module", "Gateway-Modul", "Gateway Module", "Gateway", "Moduł IP", "Gateway", "Module passerelle", "Ağ Geçidi", "Modulo Gateway", "Modul brány", "Modul brány")
+MAKE_WORD_TRANSLATION(alert_device, "报警模块", "Alert Module", "Alarmmodul", "Alert Module", "Larmmodul", "Moduł alarmowy", "Alarmmodul", "Module d'alerte", "Alarm Cihazı", "Module Avviso", "Modul upozornení", "Modul upozornění")
+//MAKE_WORD_TRANSLATION(pump_device, "泵模块", "Pump Module", "Pumpenmodul", "Pump Module", "Pumpmodul", "Moduł pompy", "Pumpemodul", "", "Pompa", "Module Pompa", "Modul čerpadla", "Modul čerpadla") 
+MAKE_WORD_TRANSLATION(extension_device, "扩展模块", "Extension Module", "Erweiterungsnmodul", "Module", "Utökningsmodul", "Moduł rozszerzeń", "Modul", "Module d'extension", "Genişletme Modülü", "Module", "Rozširujúci modul", "Rozšiřující modul")
+MAKE_WORD_TRANSLATION(heatsource_device, "热源", "Heatsource", "Wärmequelle", "Heatsource", "Värmekälla", "Źródło ciepła", "Varmekilde", "Source de chaleur", "Isı Kaynağı", "Fonte di calore", "Tepelný zdroj", "Zdroj tepla")
+MAKE_WORD_TRANSLATION(sensors_device, "传感器", "Sensors", "Sensoren", "Sensoren", "Sensorer", "Czujniki", "Sensorer", "Capteurs", "Sensör Cihazı", "Sensori", "Snímače", "Senzory")
+MAKE_WORD_TRANSLATION(unknown_device, "未知", "Unknown", "Unbekannt", "Onbekend", "Okänt", "Nieznane urządzenie", "Ukjent", "Inconnu", "Bilinmeyen", "Sconosciuto", "Neznámy", "Neznámé")
+MAKE_WORD_TRANSLATION(custom_device, "自定义", "Custom", "Nutzerdefiniert", "Aangepast", "Anpassad", "Niestandardowe", "Tilpasset", "Personnalisé", "Özel", "Personalizzato", "Vlastné", "Vlastní")
+MAKE_WORD_TRANSLATION(custom_device_name, "自定义实体", "Custom Entities", "Nutzer deklarierte Entitäten", "Gebruiker gedefineerd", "Egendefinierade entiteter", "Encje zdefiniowane przez użytkownika", "Brukerdefinerte enheter", "Entités personnalisées", "Kullanıcı tarafından tanımlanmış varlıklar", "Entità definita da utente", "Používateľom definované entity", "Vlastní entity")
+MAKE_WORD_TRANSLATION(ventilation_device, "通风", "Ventilation", "Belüftung", "Ventilatie", "Ventilation", "Wentylacja", "Ventilasjon", "Ventilation", "Havalandırma", "Ventilazione", "Vetranie", "Větrání")
+MAKE_WORD_TRANSLATION(water_device, "水模块", "Water Module", "Wassermodul", "Water Module", "Vattenmodul", "Moduł wodny", "Vannmodul", "Module d'eau", "Su Modülü", "Modulo Acqua", "Modul vody", "Modul vody")
+MAKE_WORD_TRANSLATION(pool_device, "水箱模块", "Poolmodul", "Pool Module", "Poolmodul", "Moduł basenu", "Bassengmodul", "Module piscine", "Havuz Modülü", "Modulo Piscina", "Modul bazéna", "Modul bazénu")
 
 // commands
 MAKE_WORD_TRANSLATION(info_cmd, "list all values (verbose)", "Liste aller Werte", "lijst van alle waardes", "lista alla värden", "wyświetl wszystkie wartości", "Viser alle verdier", "lister toutes les valeurs", "Tüm değerleri listele", "elenca tutti i valori", "zobraziť všetky hodnoty", "vypsat všechny hodnoty (podrobně)")
