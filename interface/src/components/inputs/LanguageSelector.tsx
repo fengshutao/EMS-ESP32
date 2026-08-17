@@ -13,6 +13,7 @@ import NLflag from 'i18n/NL.svg';
 import NOflag from 'i18n/NO.svg';
 import PLflag from 'i18n/PL.svg';
 import SKflag from 'i18n/SK.svg';
+import ZHflag from 'i18n/ZH.svg';
 import SVflag from 'i18n/SV.svg';
 import TRflag from 'i18n/TR.svg';
 import { I18nContext } from 'i18n/i18n-react';
@@ -37,6 +38,7 @@ const LANGUAGE_OPTIONS: LanguageOption[] = [
   { key: 'no', flag: NOflag, label: 'NO' },
   { key: 'pl', flag: PLflag, label: 'PL' },
   { key: 'sk', flag: SKflag, label: 'SK' },
+  { key: 'zh', flag: SKflag, label: 'ZH' },
   { key: 'sv', flag: SVflag, label: 'SV' },
   { key: 'tr', flag: TRflag, label: 'TR' }
 ];
