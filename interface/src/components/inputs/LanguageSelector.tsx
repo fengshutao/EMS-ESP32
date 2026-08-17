@@ -38,7 +38,7 @@ const LANGUAGE_OPTIONS: LanguageOption[] = [
   { key: 'no', flag: NOflag, label: 'NO' },
   { key: 'pl', flag: PLflag, label: 'PL' },
   { key: 'sk', flag: SKflag, label: 'SK' },
-  { key: 'zh', flag: SKflag, label: 'ZH' },
+  { key: 'zh', flag: ZHflag, label: 'ZH' },
   { key: 'sv', flag: SVflag, label: 'SV' },
   { key: 'tr', flag: TRflag, label: 'TR' }
 ];
