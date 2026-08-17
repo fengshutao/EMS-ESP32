@@ -51,7 +51,8 @@ const char * const languages[] = {EMSESP_LOCALE_EN};
 // EN + DE
 const char * const languages[] = {EMSESP_LOCALE_EN, EMSESP_LOCALE_DE};
 #else
-const char * const languages[] = {EMSESP_LOCALE_EN,
+const char * const languages[] = {EMSESP_LOCALE_ZH,
+                                  EMSESP_LOCALE_EN,
                                   EMSESP_LOCALE_DE,
                                   EMSESP_LOCALE_NL,
                                   EMSESP_LOCALE_SV,
@@ -61,7 +62,6 @@ const char * const languages[] = {EMSESP_LOCALE_EN,
                                   EMSESP_LOCALE_TR,
                                   EMSESP_LOCALE_IT,
                                   EMSESP_LOCALE_SK,
-                                  EMSESP_LOCALE_ZH,
                                   EMSESP_LOCALE_CS};
 #endif
 
