@@ -999,6 +999,17 @@ MAKE_TRANSLATION(setPower, "setpower", "请求功率", "request power", "Solllei
 MAKE_TRANSLATION(dip, "dip", "拨码开关", "dip switch", "DIP-Schalter", "", "DIP-strömställare", "przełącznik DIP", "", "", "", "", "dip prepínač", "přepínač DIP") 
 MAKE_TRANSLATION(outPower, "outpow", "输出IO1", "output IO1", "Ausgang IO1", "", "Utgångsffekt", "wyjście IO1", "", "", "", "", "výstup IO1", "výstup IO1") 
 MAKE_TRANSLATION(input, "input", "输入", "input", "Eingang", "", "Ingång", "wejście", "", "", "", "", "vstup", "vstup")
+
+/*
+// unknown fields to track (SM10), only for testing
+// **** NO TRANSLATION NEEDED ****
+MAKE_TRANSLATION(data11, "data11", "未知数据字段11", "unknown datafield 11", "", "", "okänt datafält 11", "nieznane pole danych 11", "", "", "", "", "neznáme dátové pole 11", "") 
+MAKE_TRANSLATION(data12, "data12", "未知数据字段12", "unknown datafield 12", "", "", "okänt datafält 12", "nieznane pole danych 12", "", "", "", "", "neznáme dátové pole 12", "") 
+MAKE_TRANSLATION(data8, "data8", "未知数据字段8", "unknown datafield 8", "", "", "okänt datafält 8", "nieznane pole danych 8", "", "", "", "", "neznáme dátové pole 8", "") 
+MAKE_TRANSLATION(data0, "data0", "未知数据字段0", "unknown datafield 0", "", "", "okänt datafält 0", "nieznane pole danych 0", "", "", "", "", "neznáme dátové pole 0", "") 
+MAKE_TRANSLATION(data1, "data1", "未知数据字段1", "unknown datafield 1", "", "", "okänt datafält 1", "nieznane pole danych 1", "", "", "", "", "neznáme dátové pole 1", "") 
+MAKE_TRANSLATION(setting3, "setting3", "未知设置3", "unknown setting 3", "", "", "okänd inställning 3", "nieznane ustawienie 3", "", "", "", "", "neznáme dátové pole 3", "") 
+MAKE_TRANSLATION(setting4, "setting4", "未知设置4", "unknown setting 4", "", "", "okänd inställning 4", "nieznane ustawienie 4", "", "", "", "", "neznáme dátové pole 4", "")
 */
 
 // clang-format on
