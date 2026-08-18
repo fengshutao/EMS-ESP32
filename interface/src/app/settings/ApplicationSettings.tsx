@@ -405,6 +405,7 @@ const ApplicationSettings = () => {
               <MenuItem value="no">Norsk (NO)</MenuItem>
               <MenuItem value="pl">Polski (PL)</MenuItem>
               <MenuItem value="sk">Slovenčina (SK)</MenuItem>
+              <MenuItem value="zh">简体中文 (ZH)</MenuItem>
               <MenuItem value="sv">Svenska (SV)</MenuItem>
               <MenuItem value="tr">Türk (TR)</MenuItem>
             </TextField>
