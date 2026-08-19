@@ -299,7 +299,7 @@ const Scheduler = () => {
               <HeaderRow>
                 <HeaderCell />
                 <HeaderCell stiff>{LL.SCHEDULE(0)}</HeaderCell>
-                <HeaderCell stiff>{LL.TIME(0)}/Cond.</HeaderCell>
+                <HeaderCell stiff>{LL.TIME(0)}/{LL.CONDITION(0)}</HeaderCell>
                 <HeaderCell stiff>{LL.COMMAND(0)}</HeaderCell>
                 <HeaderCell stiff>{LL.VALUE(0)}</HeaderCell>
                 <HeaderCell stiff>{LL.NAME(0)}</HeaderCell>
