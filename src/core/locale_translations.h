@@ -95,7 +95,7 @@ MAKE_WORD_TRANSLATION(tag_hc5, "hc5", "HK5", "hc5", "VK5", "OG5", "hc5", "hc5", 
 MAKE_WORD_TRANSLATION(tag_hc6, "hc6", "HK6", "hc6", "VK6", "OG6", "hc6", "hc6", "ID6", "hc6", "hc6", "hc6")
 MAKE_WORD_TRANSLATION(tag_hc7, "hc7", "HK7", "hc7", "VK7", "OG7", "hc7", "hc7", "ID7", "hc7", "hc7", "hc7")
 MAKE_WORD_TRANSLATION(tag_hc8, "hc8", "HK8", "hc8", "VK8", "OG8", "hc8", "hc8", "ID8", "hc8", "hc8", "hc8")
-MAKE_WORD_TRANSLATION(tag_dhw1, "生活热水", "dhw", "WWK", "dhw", "VVK", "CWU", "dhw", "ecs", "SKS", "dhw", "TÚV", "TUV")
+MAKE_WORD_TRANSLATION(tag_dhw1, "dhw", "WWK", "dhw", "VVK", "CWU", "dhw", "ecs", "SKS", "dhw", "TÚV", "TUV")
 MAKE_WORD_TRANSLATION(tag_dhw2, "dhw2", "WWK2", "dhw2", "VVK2", "CWU2", "dhw2", "ecs2", "SKS2", "dhw2", "TÚV2", "TUV2")
 MAKE_WORD_TRANSLATION(tag_dhw3, "dhw3", "WWK3", "dhw3", "VVK3", "CWU3", "dhw3", "ecs3", "SKS3", "dhw3", "TÚV3", "TUV3")
 MAKE_WORD_TRANSLATION(tag_dhw4, "dhw4", "WWK4", "dhw4", "VVK4", "CWU4", "dhw4", "ecs4", "SKS4", "dhw4", "TÚV4", "TUV4")
